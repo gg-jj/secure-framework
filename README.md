@@ -24,6 +24,7 @@ flowchart LR
 ## 多層アクティベーション
 
 ```mermaid
+flowchart LR
   BIOS --> BIOSMaker --> OS
   OS --> OSMaker --> Distribution
   Distribution --> Distributor
